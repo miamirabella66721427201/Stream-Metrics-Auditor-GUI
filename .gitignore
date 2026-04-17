@@ -1,0 +1,13 @@
+# === GUI Build Exclusions ===
+node_modules/
+dist/
+out/
+.parcel-cache/
+
+# === Python Core Exclusions ===
+core/venv/
+core/__pycache__/
+
+# === Personal Configurations ===
+config/auth_keys.json
+logs/audit_session.log
